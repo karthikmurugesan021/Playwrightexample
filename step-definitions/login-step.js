@@ -20,12 +20,12 @@ const loginPage = new LoginPage()
 
 Given('I visit a login page', async ()=> {
 //defineStep('I visit a login page', async ()=> {
-  await loginPage.navigateToLoginScreen()
+  await loginPage.navigateToLoginScreen() //login page
 })
 
 When('I fill the login form with valid credentials', async ()=> {
 //defineStep('I fill the login form with valid credentials', async ()=> {
-  await loginPage.submitLoginForm()
+  await loginPage.submitLoginForm() //submissiojn
 })
 
 //Then('I should see the home page', async ()=> {
